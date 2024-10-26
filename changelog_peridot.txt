@@ -1,0 +1,83 @@
+Device name: Poco F6/ Redmi Turbo 3
+Device codename: peridot
+Device maintainer: kenway214
+
+
+## DerpFest 15
+
+
+**Device Changelog 20.10.2024**
+
+
+- Oct security patch and latest Derpfest 15 Source Changes.
+- Introduce Thermal Profile Tile Service ( Default/Battery saving/Gaming/Performance mode) -add it in quicksettings panel.
+- Removed Per app thermal profile.
+- Fixed Pocket Mode.
+- Added Face Unlock.
+- Updated BCR to 1.72
+- Switched to stock kernel. (No KSU included )
+- Fixed scrooling lag in certain apps ( i.e chrome ,youtube, netflix etc) Now its correctly at 120 fps .( maps still 60 tell google to fix that).
+- Disable redir_party_num. fixes incoming caller number not being parsed correctly by Phone app on VoLTE and VoWiFi.
+- Disabled the SRE Display Feature.
+- Disabled the Frame Rate Override Feature.
+- Added sensors.xiaomi.v2.
+- Updated Thermal Profiles .
+- Update Display Saturation Service Drawable .
+- Added missing camera properties.
+- Updated SEPolicy for missing file contexts and permissions.
+- Built SensorService 1.0.
+- Included libziparchive.
+
+
+
+**Device Changelog 13.10.2024**
+
+- Adjust auto brightness configuration
+- Introduce displayfeature color service
+- Import HyperOS Gallery ,Gallery AI Editor
+- Fixed HyperOS Cam low resolution photos. Now it can take full resolution images
+- Fixed HyperOS Cam OIS
+- Fixed Speaker volume not controlled by vol buttons
+- Improved speak volume
+- Import thermal engine and thermal service
+- Fixed Smooth Display
+- Enable and adjust ambient display burn-in protection
+- Fixed Netflix DRM in android 15
+- Fix microphone issues in certain apps (e.g., WhatsApp)
+- Remove BT LC3 codec support
+- Add A2DP Bluetooth audio routes
+- Disable Dynamic Range Compression in audio
+- Set 5G icon always available
+- Improve carrier MNC attributes for better compatibility
+- Enable VoNR support
+- Force-enable IMS capabilities
+- Switch to Xiaomi healthd-ext HAL (AIDL)
+- Address SEPolicy issues
+- Switched to REAL-KING Kernel v3 (KSU version)
+
+
+
+**Device Changelog 06.10.2024**
+
+- Fixed double tap to wake
+- Fixed UDFPS icon glitching
+- Fixed UDFPS in AOD
+- Fixed USB otg not working
+- Fixed vonr not working for some
+- Fixed device certified and play integrity , not strong . Please Read Carefully
+- Included memecam , Dolby Atmos, Dolby Vision
+- Included per app refresh rate , Per app thermal Profiles via xiaomi parts
+- spatial audio
+- Included custom display saturation slider
+
+**Device Changelog 04.10.2024**
+
+- Initial A15 build
+
+ Knows Issues:
+• Screen off udfps not working
+• Visual glitch on udfps when unlocking but its working fine
+• meme cam back camera portrait mode dead
+• Device uncertified (use certified props) (source sided)
+• No face unlock yet (source sided)
+• No customization yet (source sided)
