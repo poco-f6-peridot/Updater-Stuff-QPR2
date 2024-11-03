@@ -5,6 +5,49 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 03.11.2024**
+
+- Latest source Chnges.
+- Fixed potrait mode in miui camera.
+- Sepolicy: Add camera perf and postproc hwservice sepolicies
+- Update from V816.0.9.0.UNPMIXM
+- Added miui bokeh in MIUI Gallery
+- Droped wfdhdcp DRM policy
+- Import missing perf blobs
+- Drop useless graphic blobs
+- Import missing librendercore.so
+- Import missing QESDK blobs
+- Sync extract scripts with 22 templates
+- overlay: Enable multiple vibration strength levels
+- overlay: Set keyguard refresh rate to 120
+- overlay: Improve status bar padding
+- properties: Use HintManager for HWUI
+- Import more Video Calls related props
+- Force enabling IMS capabilities fixes volte vonr vowifi
+
+
+**Device Changelog 26.10.2024**
+
+- Latest source Changes.
+- OTA enabled. Now you can directly update from inbuilt updater app.(settings/system/derpfest updater)
+- Switched to REAL-KING Kernel v3 (KSU version)
+- Fixed Google recorder voice to speech recognision.
+- Switch to armv8-2a-dotprod arch variant. It's better than armv9-a because of SVE2 and performance in sm8650.
+- Import Wifi Display.
+- Implement Pocket Detection service
+- Use NonUI sensor for pocket mode
+- Link dolby blobs against v33 libstagefright_foundation. fixes crashes and absurdly high CPU usage while using dolby.
+- Import Device features.
+- Expose aux cameras to com.android.camera and Aperture.
+- Import libhidltransport
+- Build Camera Legacy HIDL deps
+- ship device specific uuid's
+- overlay: Adjust keyguard_indication_margin_bottom
+- Build libusbhost.vendor
+- Patch libwfdservice to resolve duplicate dependencies
+- Allow gettid syscall for wfdhdcphalservice
+- Shim WFD with libgui_shim/libinput_shim
+
 
 **Device Changelog 20.10.2024**
 
