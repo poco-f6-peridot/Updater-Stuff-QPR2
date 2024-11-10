@@ -5,6 +5,30 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 10.11.2024**
+
+- Latest source Chnges 
+- props: Set ro.mediaserver.64b.enable true
+- props: Define ro.media.recorder-max-base-layer-fps
+- props : Import some media system props
+- Setup runtime cpusets
+- Chown the cgroup.procs nodes
+- Disable multiple kswapd threads
+- Lower down rate limit for prime CPU
+- Import cgroup tuning from gs101
+- Enable uclamp latency_sensitive for top-app
+- adjust thread count and cpuset after setup wizard
+- Configure schedutil up/down rate limit
+- Manually place msm_drm and msm_kgsl_3d0 IRQs
+- sepolicy: Label persist.vendor.aiie_capture_log.debug
+- overlay: Update pixel pitch
+- udfps: Mimic stock logic
+- SystemUI: UdfpsView: minor code improvement
+- UdfpsView/AuthController: cleanup old merge conflict res
+- Reduce padding on the UDFPS foreground icon
+- update miuicamera from V816.0.9.0.UNPMIXM
+- update REAL-KING Kernel v4 (KSU version)
+
 **Device Changelog 03.11.2024**
 
 - Latest source Chnges.
