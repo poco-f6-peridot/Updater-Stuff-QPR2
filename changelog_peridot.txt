@@ -5,9 +5,22 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 17.11.2024**
+
+- Nov security patch.
+- Latest source Changes
+- Fixed UDFPS animations causing issues with fod.
+- biometrics: Fix udfps races
+- Import missing AtFwd2 app
+- parts: Set standard display color mode in AOD and  
+- parts: Refactored colorservices code
+- Update PRODUCT_BUILD_PROP_OVERRIDES with normalized variables
+- Add missing xiaomi ecc list to vendor
+- update REAL-KING Kernel v4 (NON KSU version)
+
 **Device Changelog 10.11.2024**
 
-- Latest source Chnges 
+- Latest source Changes.
 - props: Set ro.mediaserver.64b.enable true
 - props: Define ro.media.recorder-max-base-layer-fps
 - props : Import some media system props
@@ -31,7 +44,7 @@ Device maintainer: kenway214
 
 **Device Changelog 03.11.2024**
 
-- Latest source Chnges.
+- Latest source Changes.
 - Fixed potrait mode in miui camera.
 - Sepolicy: Add camera perf and postproc hwservice sepolicies
 - Update from V816.0.9.0.UNPMIXM
