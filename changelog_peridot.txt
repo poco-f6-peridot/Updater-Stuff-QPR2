@@ -5,6 +5,20 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 24.11.2024**
+
+- Latest source Changes
+- parts: Introduce High Touch Sampling Rate (Settings/Display/Touch Responsiveness)
+- Introduce Touch Responsivenes tile in quicksettings 
+- Fixed double tap to ambient instead of fully waking
+- Fixed volte/vonr/calling (hotfix)
+- init: Optimize cpuset configuration for improved performance
+- rootdir: Remove `wait_for_keymaster` and all references
+- audio: s/libmisoundfx/libmisoundfx_ext
+- Enable QS media player turbulence effect
+- Import QCOM audio effects from OnePlus 9R
+- audio: use QCOM Implementation for Audio Effects
+
 **Device Changelog 17.11.2024**
 
 - Nov security patch.
