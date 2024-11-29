@@ -5,6 +5,20 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 30.11.2024**
+
+- Latest source Changes
+- Fixed High Touch Sampling Rate (HTSR) getting reset after reboot
+- Improved logic for touch responsiveness tile . Tile renamed to Touch boost
+- Fixed AOD colors . set to default
+- Fixed Display features color service
+- Fixed some sepolices
+- Improved logic Thermal profile tile logic
+- Add permissions and whitelist for Xiaomi parts
+- Refactor BootCompletedReceiver
+- CameraManager: Fix NPE in getting cameraIds
+- FlashlightControllerImpl: Fix crash when camera IDs list is null
+
 **Device Changelog 24.11.2024**
 
 - Latest source Changes
