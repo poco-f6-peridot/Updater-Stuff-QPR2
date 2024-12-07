@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1732847537,
-      "filename": "DerpFest-15-weekly-Stable-peridot-20241129.zip",
-      "id": "ecb27456cada403d56c73945ee9e31c1fe176279f10ff7660068c21f5bc3a60d",
+      "datetime": 1733577389,
+      "filename": "DerpFest-15-weekly-Stable-peridot-20241207.zip",
+      "id": "d33f5b0ff329a6bb245aece06e04f9d8a57373a7071774cc56a3b1f2e1d5f69e",
       "romtype": "weekly",
-      "size": 3492562304,
-      "url": "https://sourceforge.net/projects/project-peridot/files/release-builds/DerpFest-15-weekly-Stable-peridot-20241129.zip/download",
+      "size": 3576363888,
+      "url": "https://sourceforge.net/projects/project-peridot/files/release-builds/DerpFest-15-weekly-Stable-peridot-20241207.zip/download",
       "version": "15"
     }
   ]

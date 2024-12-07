@@ -5,6 +5,18 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 07.12.2024**
+
+- Fixed Miui camera and Gcam 4k 60fps video recording
+- Fixed Auto brightness on AOD
+- Fixed fod not responding in AOD after sometimes when phone in aod state
+- Added support for 120 fps in certain games
+- Fixed secure NFC functionality
+- sepolicy: Label ro.hardware.chipname property
+- sepolicy: Address some mediacodec sepolicy denials
+- parts: Rebrand to com.xiaomi.settings
+- Refractor double tap to wake
+
 **Device Changelog 30.11.2024**
 
 - Latest source Changes
