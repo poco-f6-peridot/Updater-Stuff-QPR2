@@ -5,6 +5,46 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 13.12.2024**
+
+- December security patch
+- Latest source Changes
+- WifiDisplay: Fixed Wifi Display DRM
+- Updated blobs from V816.0.10.0.UNPMIXM
+- MiuiCamera: Update to leica camera from aurora
+- MiuiCamera: Fixed raw image taking in pro mode
+- Fixed status bar padding
+- Fixed lock scrren widget
+- Improvement in autobrightness responsiveness
+- Fix crash when camera IDs list is null
+- Camera: Fix camera id equal check
+- Camera: Prevent crash when unable to find tag
+- StreamConfigurationMap: add constructor for MIUI camera
+- Add backwards-compatible CaptureResultExtras constructor
+- Camera: Don't throw exceptions when value pairs have spaces in them
+- Add config overlay to force enable multi resolution for camera
+- Camera: Extend face detection
+- Fix Photosphere/Camera FCs
+- libcameraservice: Add support to set vendor tag with client package name
+- cameraserver: Allow google camera to access multiple cameras
+- cameraserver: Let multiple cameras opened by stock camera application
+- CAMX: CHI: Added support for handling jpeg debug data.
+- camera: Expose aux cameras in third party apps
+- libstagefright: Allow HFR-60 in HAL-3 recording
+- stagefright: add changes related to high-framerates in CameraSource
+- audio: add encoding support for linear PCM format
+- media: Add timelapse 4k UHD Camcorder profile to quality map
+- av: support for 24bit encoding and 6 channels
+- Nuplayer: Avoid crash when codec fails to load
+- Nuplayer: Declare 24Bit Packed & 32Bit support
+- av: Audio Policy: Increase Max Sample Rate Hz to 384k
+- Fixed Lineage Health HAL
+- DolbyManager: Make bass enhancer available on speakers as well
+- DolbyManager: Migrate MainSwitchBar and Switch to Material3
+- Import prebuilt libtinycompress blob
+- Add a property to enable prefetching video
+- Updated BCR to 1.74
+
 **Device Changelog 07.12.2024**
 
 - Fixed Miui camera and Gcam 4k 60fps video recording
