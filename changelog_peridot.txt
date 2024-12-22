@@ -5,6 +5,20 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 22.12.2024**
+
+- Latest source changes
+- Fixed PowerOffAlarm service
+- DerpLauncher: Added circle to search
+- Fixed crashing MIUI Camera when trying to play recorded videos directly from the Camera app
+- Imported missing ADSP blobs
+- Built libaudioroute for vendor
+- Dropped some prebuilt GMS packages
+- Updated HyperOS Gallery and GalleryEditor
+- efactored thermal profile tile and touch boost tile
+- Updated REAL-KING Kernel to v5
+
+
 **Device Changelog 13.12.2024**
 
 - December security patch
