@@ -5,12 +5,23 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 18.1.2025**
+
+- Latest source changes
+- Import missing audio vendor and odm props
+- Set default Wi-Fi country code to '00'
+- rootdir: Move background cpuset to CPU0-1
+- rootdir: Set restricted cpuset to the same CPUs as system-background
+- parts: Reset touch sampling rate on service destruction and Refactor code
+- Fixed whatsapp videocall issues
+- Fixed snapchat camera lenses not working
+- Fixed leica camera occasional crash in specific cases.
+- Updated gameproputils spoofing devices
+
 **Device Changelog 10.1.2025**
 
 - Latest source changes
-
 - QPR1 with December security patch
-
 - Combined Per-App Thermal Profile (Settings > Battery) and Thermal Profile Tile Service (Quick Settings) for seamless integration.
 
      Per-App Thermal Profile (Settings > Battery)
