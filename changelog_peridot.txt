@@ -5,6 +5,20 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 26.1.2025**
+
+- Latest source changes
+- Introduce High Brightness Mode (HBM)
+- Reverted USSD fix -maybe causing no sim signal (hotfix)
+- ThermalTileService: Automatically switched to battery thermal profile when system battery saver mode on
+- ThermalTileService: Disable cpu lpm in performance mode
+- ThermalTileService: Enable notification for performence mode
+- Introduce DSPVolumeSynchronizer - prevent speaker distortion at high volume
+- audio: Fix mic issues in apps like WhatsApp
+- Fixup High Touch Sampling Rate (HTSR) service logic
+- Add RefreshRate QS tile
+
+
 **Device Changelog 18.1.2025**
 
 - Latest source changes
@@ -18,14 +32,14 @@ Device maintainer: kenway214
 - Fixed leica camera occasional crash in specific cases.
 - Updated gameproputils spoofing devices
 
+
 **Device Changelog 10.1.2025**
 
 - Latest source changes
 - QPR1 with December security patch
 - Combined Per-App Thermal Profile (Settings > Battery) and Thermal Profile Tile Service (Quick Settings) for seamless integration.
 
-     Per-App Thermal Profile (Settings > Battery)
-
+        Per-App Thermal Profile (Settings > Battery)
   • Added a Master Switch for Per-App Thermal Profile.
   • Automatically determine thermal profiles for apps.
   • Updated drawables for a modern look.
@@ -36,8 +50,7 @@ Device maintainer: kenway214
      Thermal profiles are applied on a per-app basis.
   • When the Master Switch is disabled (Via master switch):System-wide Thermal Profile Tile Service is automatically enabled.
 
-      Thermal Profile Tile Service (Available via Quick Settings)
-
+        Thermal Profile Tile Service (Available via Quick Settings)
   • Reworked the Thermal Profile Tile Service for a more universal, system-wide implementation.
   • Dropped Game Mode thermal profile.
   • Now includes only three modes: Default //Performance //Battery Saver
@@ -51,6 +64,7 @@ Device maintainer: kenway214
 - Switch back to stock vibratorfeature
 - Fixed top speaker during alarm not working
 - Fixed top speaker in lock screen
+
 
 **Device Changelog 22.12.2024**
 
