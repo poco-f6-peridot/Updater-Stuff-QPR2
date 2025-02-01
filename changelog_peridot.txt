@@ -5,6 +5,25 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 01.2.2025**
+
+- Latest source changes
+- Introduce one-shot HBM via Quick Settings tile (QS tile will be unavailable if Automatic HBM service is enabled)
+- Fixed Automatic High Brightness Mode (HBM) not working properly after device restart (Note: 5-second delay added after restart)
+- In QS, there are now two separate QS tiles: "Auto HBM" and "HBM"
+- Enabled proper notifications when each QS tile is activated
+- Introduced long press on QS tiles (Touch Boost tile, HBM tile, Thermal Profile, and Refresh Rate tile) to open the main settings page
+- ThermalTileService: Introduced Process Priority and Memory Trimming Level for better performance (Performance Mode Thermal) and better battery life (Battery Saver Thermal)
+- Fixed incoming call number duplication
+- Reverted fix for the top speaker to prevent buzzing sound from the top speaker on the lock screen and during calls
+- Dropped HyperOS Gallery, Gallery Editor, HyperOS Bokeh, and MIUI Video Player
+- Fixed Leica not opening in the lock screen widget
+- Fixed double-clicking the power button while on the lock screen to open the Leica camera
+- Added Quick Tap
+- Improved Game Space
+- Updated gameproputils spoofing devices
+
+
 **Device Changelog 26.1.2025**
 
 - Latest source changes
