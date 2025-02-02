@@ -5,6 +5,12 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 02.2.2025**
+
+- Latest source changes
+- Improved Game Space (Hotfix - can add games now)
+
+
 **Device Changelog 01.2.2025**
 
 - Latest source changes
