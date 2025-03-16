@@ -5,6 +5,32 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 17.3.2025**
+
+- Latest source changes
+- March security patch (QPR1)
+- Updated vendor blobs from V816.0.12.0.UNPMIXM
+- Switched to stock kernel
+- Updated prebuilt modules from V816.0.12.0.UNPMIXM
+- Introduce GameBar v2.0 (Settings/Apps)
+- Introduce Power profiles (Settings/Battery) and powerprofile QS tile (4 Modes - Balance // Gameboost // High Performance // Powersave )
+- Auto-enable support for High Touch Pooling Rate for games added in gamespace app.(enable toggle from settings/display/HTPR settings page)
+- Add video demonstration for High Touch Polling Rate feature
+- Add auto-enable High Touch Polling Rate in Game Mode (enable toggle from settings/display/HTPR settings page)
+- Fixed display stuck at 30hz after unlocking device occasionally when 120hz adaptive mode is selected
+- Fixed USSD code via dialer (no sim restart script)
+- Add migration to turn off persist.vendor.radio.poweron_opt
+- Enable support for kernel idle timer
+- rootdir: Configure schedutil ratelimits
+- rootdir: Configure cpusets for audio-app and system-background
+- Enable TWS plus feature using persist property
+- Enable Qualcomm TrueWireless™ Stereo
+- AAC frame control enabled for hal implementation
+- Add support for low power adaptive control feature
+- Disable BT A2DP AAC whitelist
+- Updated gameproputils spoofing devices (can play BGMI/PUBG at 120 fps)
+
+
 **Device Changelog 02.2.2025**
 
 - Latest source changes
