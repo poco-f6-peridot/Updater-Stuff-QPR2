@@ -5,6 +5,45 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 23.3.2025**
+
+- Latest source changes
+- March security patch (QPR1) ,HyperOS 2 based
+- Fixed Leica crash issue on hyper os2 based aosp roms (front and video 4k 60 fps works fine now)
+- Fixed Apps getting killed as soon as they went backgrund/minimised
+- Properly disable phantom process killing
+- Tune sf region sampling
+- Tune adaptive suspend proprieties
+- Resolve missing symbols on libwrapper_dlengine
+- Build some required camera packages
+- Migrate mount point symlink creation to blueprint
+- Enable xiaomi vibrator effects on common QTI vibrator hal
+- Update vibrator firmware paths for proper mapping
+- Drop unused vibrator effects
+- Declare some libs as symlinks during extraction
+- Disable skia tracing
+- Enable ro.config.avoid_gfx_accel
+- Set renderengine backend to skiavk
+- Disable gl backpressure
+- overlay: add more list to pinned service
+- Reduce system server verbosity
+- Tone down CamX and CHIUSECASE logging
+- overlay: Set keyguard refresh rate to 120
+- Add some props for better RAM management
+- Silence some spammy logging
+- sepolicy: Address some sepolicy denials
+
+
+**Device Changelog 21.3.2025**
+
+- Latest source changes
+- March security patch (QPR1)
+- Based on  miui_PERIDOTINGlobal_OS2.0.100.0.VNPMIXM
+- stock kernel from miui_PERIDOTINGlobal_OS2.0.100.0.VNPMIXM
+- Implement torch light control (via QS Flashlight Tile)
+- Fixed Charging Control
+
+
 **Device Changelog 17.3.2025**
 
 - Latest source changes
