@@ -5,6 +5,26 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 31.3.2025**
+
+- Latest source changes
+- March security patch (QPR1) ,HyperOS 2 based
+- Introduce Power tools v1.0 (Customize power profiles, limit CPU/GPU frequencies, and change governor settings without root) (settings/battery)
+- Fixed display stuck at 30hz after unlocking device occasionally when 120hz adaptive mode is selected (fixup hos2)
+- Fixed USSD code via dialer (fixup hos2)
+- Generate qcrilNr.db during build
+- qcril-database: Add host tool to generate qcrilNr.db from migrations
+- qcril_database: Add migration to disable redir_party_num (fixup)
+- qcril_database: Add migration to turn off persist.vendor.radio.poweron_opt (fixup)
+- Build FastCharge from yaap , Dropped lineage fastcharge (fixed fastcharging issues)
+- Import missing hos2 blobs (fixup: update blobs from miui_PERIDOTINGlobal_OS2.0.100.0.VNPMIXM)
+- Resolve missing symbols on codec2 blobs using shim
+- fwb: notify HWUI when scrolling
+- services/core: Add interaction launch boosts
+- services: Implement activity boost optimization
+- Add support of CameraX Vendor Extensions
+
+
 **Device Changelog 23.3.2025**
 
 - Latest source changes
