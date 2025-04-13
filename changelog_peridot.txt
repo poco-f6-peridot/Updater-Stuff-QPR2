@@ -5,6 +5,40 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 13.04.2025**
+
+- Latest source changes
+- March security patch (QPR1) ,HyperOS 2 based
+- Switch to common xiaomi vibrator service
+- Adapt to xiaomi vibrator effects
+- Import init.peridot.rc
+- Import auto-brightness configs from houji
+- PowerTools: Bump version to v3.0
+- PowerTools- Full codebase refactor for the PowerTools module
+- PowerTools- Added 'Unknown' mode: if any external module modifies PowerTools behavior unexpectedly, the mode will automatically switch to 'Unknown' to reflect the change
+- Game Bar v4.0 – Complete rework of the entire codebase for better performance and maintainability.
+      Added two FPS tracking methods:
+
+      1. Modern Android API-based method
+      2. Legacy system-based method (for broader compatibility)
+
+      Improved draggable overlay:
+
+      - Overlay can now be moved freely (bugfix) and placed anywhere on the screen (select customisaton/ovrlay position/custom draggable)
+
+      Auto-launch Game Bar for selected apps:
+
+      - Game Bar can now automatically launch when a selected app is opened
+      - Add apps from the bottom section of the Game Bar menu
+      - Toggle the Auto Enable switch to allow launch even when the main Game Bar toggle is off
+
+- Refactored SELinux policies, removed neverallow workarounds
+- parts: Bumped minSdkVersion to 33 and targetSdkVersion to 35 to support modern APIs.
+- Updated privapp whitelist to grant necessary permissions for new features
+- Fixed dolby.media.c2@1.0-service crashing
+- Fixed HDR cintent detection in OTT platorms
+- Updated gameproputils spoofing devices
+
 **Device Changelog 31.3.2025**
 
 - Latest source changes
