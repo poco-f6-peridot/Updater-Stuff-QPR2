@@ -5,6 +5,53 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 20.04.2025**
+
+- Latest source changes
+- March security patch (QPR1) ,HyperOS 2 based
+- This build comes in two branches, each with different fingerprint implementations.
+
+      Both versions can be flashed via local update through the system updater.
+
+      Updater notification and auto-updates are only available on the Weekly Branch.
+
+- Common Changes (Both Branches)
+
+- Shake Gesture for Torch (early stage):
+    → Works even with screen off (occasionally unresponsive).
+    → Sensitivity is high on low slider values – increase the slider value for better accuracy.
+- Turbo Charging Support with selectable max wattage:
+    → Options: 33W / 45W / 60W / 90W.
+    → Choose the max charging speed that suits your needs.
+- Charging Control now works:
+    → Set charging limit to 80% or above (below 80% not currently supported).
+
+🟢 Weekly Branch
+(Stock Kernel + Stock Fingerprint Sensor)
+
+Uses stock fingerprint sensor (no real screen-off UDFPS).
+Screen-off UDFPS via AOD hack:
+ → Enable Settings > Gestures > Always-On Fingerprint.
+ → Enabling Always-On Fingerprint:
+Increases screen-off battery drain.
+Prevents ambient notifications from showing.
+→ Disable it if you want Always-On Display (AOD) to function.
+→ Supports updater notifications & auto-updates.
+
+🔵 OSS-FOS Branch
+(Isis Kernel + OSS Fingerprint Sensor)
+
+Uses OSS fingerprint HAL with Isis kernel (RK also supported).
+Proper screen-off UDFPS support:
+ → Enable Settings > Gestures > Long Press on Fingerprint Sensor to unlock.
+Optional: Always-On Fingerprint (FP icon overlay like MIUI).
+ → Increases screen-off drain + disables ambient notifications if enabled.
+Touch sampling rate reduced to 333Hz.
+❌ WARNING: Dead touch for FocalTech panel users!
+ → Do NOT flash if your device has a FocalTech display panel.
+
+
+
 **Device Changelog 13.04.2025**
 
 - Latest source changes
