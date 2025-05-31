@@ -5,6 +5,35 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 31.05.2025**
+
+- Latest source changes
+- May security patch (QPR2) ,HyperOS 2 based
+- Dropped firmware from rom zip
+- touchsampling: Add per app high touch sampling support
+- touchsampling: Refactor and dropped all old mothods
+- powertools: Introduce per-app power profile support and bump version to v6
+- powertools: Tuned Balanced , Gameboost , performance profile for case specific scnerios
+- powertools: Balanced: sustained lower clock if high demand process for better sustained battery ,hooked with libperfmanager
+- powertools: Gameboost: Added lauchboost , load priority, cache management for apps using game boost powerprofile
+- powertools: performance: using mgame sconfig thermal fallback ,hooked with libperfmanager for sustained high performance without much heating
+- powertools: Batterysaver: added seperate toggle weather to enable android system battery saver when this power profile is set
+- thermalprofile: Dropped per app thermal profile
+- GameBar: Introduce Ram temp and Ram clock speed overlay
+- GameBar: Create gamebargesturehandler to address all Gestures
+- GameBar: Refactor and bump version to v6
+- Revert "peridot: parts: Introduce RefreshRateService to enforce 120Hz on screen wake events"
+- Revert "peridot: parts: Introduce RefreshRate QS tile"
+- Add support for 60Hz in Landscape in per app refresh rate
+- Touchfeature: Minor cleanup and improved logic and logspam
+- Enable Client Composition Cache
+- udfps: Disable lhbm when authentication is finished
+- udfps: Disable lhbm on most acquired events
+- init: Give proper permissions for /dev/mhi_*_pipe_4 
+- Enable HWUI adpf
+- Fixed local update via updater
+- Enable OTA support
+
 **Device Changelog 24.05.2025**
 
 - Latest source changes
