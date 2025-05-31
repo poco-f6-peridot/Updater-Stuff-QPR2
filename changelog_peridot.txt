@@ -5,6 +5,114 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 24.05.2025**
+
+- Latest source changes
+- May security patch (QPR2) ,HyperOS 2 based
+- Updated blobs from OS2.0.103.0.VNPMIXM
+- Updated firmware from OS2.0.102.0.VNPMIXM
+- TARGET_ARCH_VARIANT Switch to armv9-a ARCH variant
+- TARGET_CPU_VARIANT Switch to Kryo785
+- TurboCharging: Consolidated turbo and sports mode logic into applyAllSettings()
+- TurboCharging: Simplified BootReceiver by offloading logic to TurboChargingUtil
+- TurboCharging: Introduced ChargerReceiver to re-apply settings on POWER_CONNECTED
+- TurboCharging: Updated QS tile to re-apply both turbo and sports modes on toggle
+- Dropped config_autoBrightnessAdjustmentMaxGamma
+- Introduce RefreshRateService to enforce 120Hz on screen wake events (attempt to fix 30Hz bug when using adaptive refrest rate, after unlock 30hz bug may be there for 1 sec if this happenes service will trigger and correct itselt to 120Hz within next sec.so device will not stuck at 30Hz)
+- Touchfeature: Intoducing Xiaomi touch control via ITouchFeature aidl (settings/display/Touch control)
+- Touchfeature: Refactors the initialization logic for Double Tap to Wake and SoFOD features into standalone services—DoubleTapService and SoFodTouchService.
+- Touchfeature: DoubleTapService registers a content observer for the DOUBLE_TAP_TO_WAKE setting and applies the corresponding touch mode via ITouchFeature 14
+- Touchfeature: SoFodTouchService enables SoFOD-related touch modes via ITouchFeature 10 11 16
+- udfps: Enable HBM via disp_feature
+- udfps: Defer extCmd until fod ui is ready
+- udfps: Drop unnecessary setFingerDown on cancel
+- udfps: Fix wrong udfps debugging
+- udfps: Avoid partial reads on disp_feature
+- udfps: Fix stack memory address return in UdfpsHandler
+- Import missing feature_enabler_client.rc
+- Dropped libqti-perfd-client and power-libperfmgr
+- Switched to qti perf hal stack
+- fstab: Switch to ext4
+
+
+**Device Changelog 12.05.2025**
+
+- Latest source changes
+- May security patch (QPR2) ,HyperOS 2 based
+- Move Lineage Health HAL to select()
+- Set libinit via soong config
+- Add libwfdservice_shim for WFD
+- Parts: Refactor touchsampling code (touch sampling now 500 tsr)
+- Fixed focaltech panels touch not working ( audio still dead fs19xx audio drivers)
+- Enable sofod using stock kernel node
+- Build udfps sensor from hardware xiaomi
+- Switched to stock kernel Hyper OS2.0.102.0.VNPMIXM
+- fstab: Switch to erofs
+- Drop full qti perf hal stack
+- Improved active drain
+- Migrate to common libqti-perfd-client and power-libperfmgr
+- Inherit dummy powerhint config
+- Inital powerhint for cliff platform (credit: @ahmed_tohamy)
+- utilize task_profiles.json + cgroups.json
+- sepolicy: Allow libperfmgr to write on /proc & sysfs
+- Optimize cpu up_rate_limit and down_rate_limit
+- Enable frame pacing
+- udfps: Notify HAL on both FOD press and release events
+- udfps: Disable local HBM immediately on successful auth
+- Updated and patched dolby blobs
+- Fixed Dolby atmos crashed issue
+- Powertools fixed cpu boost freq not loading correctly
+- Fixed jittery Ui due to cpu freq mismatch with powerprofiles
+- powerprofile optimise gaming profile
+
+
+**Device Changelog 12.05.2025**
+
+- Latest source changes
+- May security patch (QPR2) ,HyperOS 2 based
+- Register and enable qcrild & data services
+- Add missing layer buffer slots cache clear property
+- BootCompletedReceiver: Defer DT2W initialization
+- Fix dt2w toggle properly not working across reboot
+- Reorganize Goodix touch node permissions and initialization
+- Fix the battery drain due to statsd
+- Align CPU frequency values and entries with corrected hardware frequencies
+- Fix high touch sampling toggle properly not working across reboot
+- fixed all racing cond releated to ossfp and sofod
+- Updated kernel and removed ksu
+
+
+**Device Changelog 10.05.2025**
+
+- Latest source changes
+- May security patch (QPR2) ,HyperOS 2 based
+- Enabled proper SoFOD (Screen-off Fingerprint On Display) with toggle under Settings > Security > Device Unlock > Biometric Unlock > Fingerprint
+- Included firmware blobs directly within the ROM for seamless hardware compatibility
+- Integrated a new open-source fingerprint HAL with improved stability and performance over the previous implementation
+- Refactored turbo charging implementation, fixed crashes, and switched to v2 for enhanced reliability
+- Updated blobs from OS2.0.102.0.VNPMIXM and partially from the latest CN HyperOS build
+- Fixed Touch Boost tile and ensured High Touch Sampling Rate persists across reboots (up to 333Hz)
+- Resolved issue causing slow internet speeds while using Bluetooth simultaneously
+- Enabled frame pacing for smoother and more consistent visual performance
+- Enabled Double Tap to Wake via correct node, and fixed toggle functionality in settings
+- Patch algo jni lib to use correct Surface::connect method
+- Add Ultra HDR heic configurations to StreamConfigurationMap constructor
+- ICustomCaptureResult: Add readout timestamp
+- Add Soong namespace imports for required hardware components 
+- Enable volume set param for compressed, pcm offload and voip streams
+- Use separate calibration for bluetooth a2dp low latency 
+- audio: Use EC enabled streams for hotword capture and single mic in lp mode
+- sepolicy: Allow powerhal write to /proc
+- Migrate Lineage Health to soong_config_set
+- Move Lineage Health HAL to select()
+- init: Rm package cache on early boot
+- init: Register and enable qcrild & data services on boot
+- updated BCR to 1.77
+- Improved Game Space
+- Updated gameproputils spoofing devices
+- Added toggle for unlock higher fps in games
+
+
 **Device Changelog 20.04.2025**
 
 - Latest source changes
