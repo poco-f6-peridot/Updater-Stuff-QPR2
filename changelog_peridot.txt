@@ -5,6 +5,21 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 07.06.2025**
+
+- Latest source changes
+- June security patch (QPR2) ,HyperOS 2 based
+- Added per-app GameBar (settings/apps/GameBar)
+- Added per-app high touch sampling (settings/Display/High touch sampling rate)
+- powertools: Refactor andded zram configuration and bump version to v7
+- Refactor per app refresh rate and added support for 90 hz and 90 hz in Landscape (disable adaptive refresh rate)
+- Indroduced JamesDSP Manager
+- Introduce quicksettings compact Media player mode(derp settings/Misc)
+- Introduce  x-Reality Display engine modes (settings/display/colors/Display engine)
+- Updated gameproputils spoofing devices
+- Forcefully enable Hotspot Speed setting (bypass country restriction for wifi 6 GHz hotspot)
+
+
 **Device Changelog 31.05.2025**
 
 - Latest source changes
