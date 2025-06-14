@@ -5,6 +5,34 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 15.06.2025**
+
+- Latest source changes
+- June security patch (QPR2) ,HyperOS 2 based
+- Switched to user build
+- Switched kernel to isis-1.7-KSU
+- Implemented HDR Visual enhancement (Settings > Display > HDR Visual Enhancement)
+- Implement toggle to disable HDR brightness boost (Settings > Display > HDR Display)
+- Updated some display blobs from ditting
+- updated and pather some display postprocessing blobs
+- updated hdr blobs from aurora
+- Implement ViPER4AndroidFX and removed JamesDSP Manager
+- Powertools: Implement Core control
+- Powertools: Fixed zram configuration not awlays applying after reboot
+- gesture : Implement Flip to Shhh action gesture
+- Disable vendor.display.support_video_mode_30hz_aod
+- Fixed HDRSDR ration and black crush
+- fixup Lineage Health charge control
+- Revert "peridot: props: Set missing RKPD props"
+- Tuned Low Memory Killer Daemon props
+- Change set persist.sys.sf.color_mode
+- Disable debug.sdm.support_writeback
+- set ro.vendor.display.ai_disp.enable true
+- powerhint: Tuned for optimum use
+- Removed "unlock higher fps in games toggle" Enabled by default and updated spoof devices
+- Keybox spoofing added-Derp customisaton/misc (source)
+
+
 **Device Changelog 07.06.2025**
 
 - Latest source changes
