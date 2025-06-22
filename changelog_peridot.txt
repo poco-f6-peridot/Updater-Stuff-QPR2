@@ -5,6 +5,27 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 22.06.2025**
+
+- Latest source changes
+- June security patch (QPR2) ,HyperOS 2 based (user build)(kernel isis-1.7-KSU-next)
+- Updated blobs from OS2.0.104.0.VNPMIXM
+- powertools: Resolves issue where battery saver was turned off unexpectedly when switching profiles or leaving settings
+- Fix SDR contents flickering when bot HDR-SDR content present in foreground scrren
+- Removed HDR Visual enhancement, not needed anymore
+- Fixed dataspace: 0x188a0000 HAL_DATASPACE_BT2020_PQ,HDR10 (perceptual quantizer) no more dimming when watchinh HDR contents
+- Fixed sepolicy denials for hal_graphics_composer_default
+- Touchsampling: refactor to fix memory leaks
+- Powertools: refactor per app powerprofile
+- Attempt to fix cached in the background t fix memory issue in lower ram modules
+- prop: Enhance LE Audio and voice codec configurations
+- audio: Provide exact mixport for input raw flags
+- audio: Set valid and supported channel mask for earpiece
+- audio: Remove direct flag for VOIP RX
+- audio: drop no longer supported shoebox
+- Tuned powerhint
+
+
 **Device Changelog 15.06.2025**
 
 - Latest source changes
