@@ -5,6 +5,13 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 21.07.2025**
+
+- Latest source changes based on Android 16
+- July security patch (QPR2) ,HyperOS 2 based (user build)(stock kernel)
+- Build type: User ,Enforcing
+
+
 **Device Changelog 22.06.2025**
 
 - Latest source changes
