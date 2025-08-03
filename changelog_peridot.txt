@@ -5,6 +5,15 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 03.08.2025**
+
+- Created libsensor-notifier-ext-light-peridot for improved autobrightness experience
+- Updated powertools with bug fix 6gb zram not working properly
+- Tuned powerhint for smooth scrolling
+- Updated sidebar and LMOFreeform (packages/apps/sidebar)
+- Created libsensor-notifier-ext-light-peridot for improved autobrightness experience and quick adjustment of brightness using rawlightnotifier
+
+
 **Device Changelog 21.07.2025**
 
 - Latest source changes based on Android 16
