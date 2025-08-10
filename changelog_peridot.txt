@@ -5,6 +5,22 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 10.08.2025**
+
+
+- Latest source changes
+- Fixed powerprofiles not updating via qs tile
+- Tweaked autobrightness values for more smooth experiences
+- configure SQLite to operate in MEMORY mode
+- fix connecting BLE devices
+- Enable ADPF CPU hints for improved UI performance
+- powerhint: Optimise values for smooth experiences
+- Enable optimized dexopt tuning and usage of dex2oat64
+- Fixed LMOFreeform crash
+- Added back x-Reality Display engine modes (settings/display/colors/Display engine)
+- Added gameproputils spoofing devices (latest) (no toggle)
+
+
 **Device Changelog 03.08.2025**
 
 - Created libsensor-notifier-ext-light-peridot for improved autobrightness experience
