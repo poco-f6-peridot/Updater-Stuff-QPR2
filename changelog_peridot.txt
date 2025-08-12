@@ -5,8 +5,12 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
-**Device Changelog 10.08.2025**
+**Device Changelog 13.08.2025**
 
+- Latest source changes
+- Fixed qs lag issue (source sided)
+
+**Device Changelog 10.08.2025**
 
 - Latest source changes
 - Fixed powerprofiles not updating via qs tile
