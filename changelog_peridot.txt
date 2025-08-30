@@ -5,6 +5,43 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+
+**Device Changelog 30.08.2025**
+
+- Latest source changes
+- Aug security patch (QPR2) ,HyperOS 2 based (user build)(stock kernel)
+- Updated stock (hos2) kernel to 6.1.118-android14-11-ga3b9c44908dd-ab13320413
+- Updated blobs from OS2.0.204.0.VNPMIXM
+- powerhint: Optimise values
+- Enable ADPF CPU hints for improved UI performance
+- overlay: Enable haptic text cursor
+- overlay: Remove deprecated config_mobile_tcp_buffers/networkAttributes
+- Remove vendor RenderScript implementation
+- Add touchfeature game mode in htsr
+- CONFIG_IEEE80211AX -> WIFI_FEATURE_HOSTAPD_11AX
+- Drop qesdhal system_ext blobs
+- fixup fp blobs
+- Update avb from hyperos 2
+- Silence HWUI logspam
+- overlay: Push screen recorder max FPS to 120FPS
+- overlay: Drop MMS user agent overlays
+- overlay: Remove config_cellBroadcastAppLinks
+- add charging bypass toggle with qs tile support
+- gamebar: Rewrite in kotlin
+- gamebar: Introduce per-app game fps log feature
+- turbocharging: prevent delay in service initialisation
+- dolby: updated dolby Manager
+- dolby: added more profile suppot in graphic equalizer (now +15dB to -15dB support)
+- dolby: Introduce advanced bass control and treble enhancer switch
+- sidebar: Updated sidebar service and lmofreeform
+- sidebar: Introduce Game centre Quick tools
+- aidl: fingerprint: Set properties for IFAA
+- IFAAService: Add null checks
+- IFAAService: Simplify startBIOManager function
+- updated BCR to 1.79
+- Updated gameproputils spoofing devices 
+
+
 **Device Changelog 13.08.2025**
 
 - Latest source changes
