@@ -5,6 +5,18 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 24.09.2025**
+
+- Latest source changes
+- Sep security patch (QPR2) ,HyperOS 2 based (user build)
+- Updated kernel based on rebased tree. (ksu-next added by default)
+- Audio for fs19xx driver fixed
+- Fixed HTSR for focaltech panel user
+- Wifi display/cast fixed
+- Gphotos unlimited added by default (it works just doesnt show in settings. check after uploading any new pic)
+- Qs tile torch strength works (torch tile should be ecpanded one not mini tile.. hold expanded torch tile to change torch strength)
+- Bypass Charging fixed
+- st2w/sw2a and dt2w added (system/gestures)
 
 **Device Changelog 30.08.2025**
 
