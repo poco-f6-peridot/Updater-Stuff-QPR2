@@ -3,7 +3,29 @@ Device codename: peridot
 Device maintainer: kenway214
 
 
-## DerpFest 15
+## DerpFest 16
+
+**Device Changelog 05.10.2025**
+
+
+- Latest source changes
+- Sep security patch (QPR2) ,HyperOS 2 based (user build)
+- Kernel Upstream to 6.1.152 NitronKernel . (ksu-next added by default)
+- Implement seperate node for Goodix and FocalTech panel
+- Improved touch responsivity and Improved touch input
+- Fixed FP HBM staying on after unlcok
+- Fixed alerts not playing on phone with BT connected
+- Fixed Haptics patterns/strength 
+- Removed miui color modes
+- Removed 30hz
+- Implement Xiaomi Parts 3.0
+- Implement Chanrging Control
+- Implement Turbo Charging
+- Powerprofiles Optimized for peridot , Inline with kernel Changes (Moved to setings/system/Powertools)
+- Gamebar v11 with advanced logging features (Moved to setings/system/gamebar)
+- Dolby: Updated Dolby engine
+- Stuff and things
+
 
 **Device Changelog 24.09.2025**
 
