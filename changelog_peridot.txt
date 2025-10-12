@@ -5,6 +5,37 @@ Device maintainer: kenway214
 
 ## DerpFest 16
 
+**Device Changelog 12.10.2025**
+
+
+- Latest source changes
+- Kernel: Updated NitronKernel v2.1.(ksu-next added by default)
+- Fixed random black issue causing force reboot
+- Improved haptics no missing haptics anymore
+- Implement Device As Webcam
+- Implement 1200 nits brightness via blightness slider
+- Removed HBM support and auto HBM support- not needed anymore
+- Improved autobrightness in dark environment.
+- Implement MiuiCamera insted of Leica Camera
+- Fixed network guru app not working properly
+- Applied workaround for carrier Aaggregation
+- Fixed NFC fw
+- Implement GameBar 12.5 with fixed gesture support, external Gamebar log opening in graphs, and export them.
+- Updated turbo charging implementation
+- Powertools: GPUmanager: Complete refector and fixed issue where min frequency not working properly
+- Enable LDAC support
+- Enable AptX voice
+- Enable AptX voice power management
+- BT: Enable Battery Service profile (BAS)
+- Bluetooth: Changing vendor ID as QTI for Device ID Profile
+- Enable ambient AOD and Ambient AOD toggle
+- overlay: Set default pin amount for home app
+- Fix aux camera not working in snapchat
+- Fixed Power Off Alarm Service
+- DolbyManager: Fixed volume leveler, after a reboot, turns back on by itself
+- DolbyManager: Fixed graphics equalizer changes itself to random custom equalizer
+- Misc Other Changes 
+
 **Device Changelog 05.10.2025**
 
 
@@ -24,8 +55,6 @@ Device maintainer: kenway214
 - Powerprofiles Optimized for peridot , Inline with kernel Changes (Moved to setings/system/Powertools)
 - Gamebar v11 with advanced logging features (Moved to setings/system/gamebar)
 - Dolby: Updated Dolby engine
-- Stuff and things
-
 
 **Device Changelog 24.09.2025**
 
