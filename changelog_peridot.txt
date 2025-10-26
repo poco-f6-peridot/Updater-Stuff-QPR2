@@ -5,6 +5,26 @@ Device maintainer: kenway214
 
 ## DerpFest 16
 
+**Device Changelog 27.10.2025**
+
+
+- Latest source changes (Based on priv-maintainer source branch)
+- Kernel: Updated NitronKernel v2.3. (~6.1.155)(ksu-next added by default)
+- Hopefully fixed high battery drain due to service crash and network drain
+- Tuned kprofiles modes and fixup auto kp mode causing slow charging screen off
+- Powertools: added Network configuration and TCP Congestion control
+- Kprofile plus : Added Enhance dose (disabled by default)
+- Enable auto kp mode bydefault
+- parts: Refactor and switch to Switch to material expressive design
+- Added Launcher icons for Gamebar and powertools for easy access
+- Switch back to Leica Camera 5.2
+- Updated dsp blobs for better image processing in leica camera
+- Fixed double click on powerbutton not launching camera stuck to wallpaper
+- Updated CPU Architecture to armv8-2a-dotprod and variant kryo785
+- refactor gesture: Flip to shhh and updated to material expressive design
+- Updated ViPER4AndroidFX to 8.0
+- Misc Other Changes
+
 **Device Changelog 19.10.2025**
 
 
