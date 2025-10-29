@@ -5,6 +5,13 @@ Device maintainer: kenway214
 
 ## DerpFest 16
 
+**Device Changelog 29.10.2025**
+
+- Latest source changes (Based on priv-maintainer source branch)
+- Kernel: NitronKernel v2.3.(ksu-next added by default)
+- Fixed touch delay for goodix(enable high touch polling rate toggle)
+- Powertools: Fix TCP Congestion control not able to change mode
+
 **Device Changelog 27.10.2025**
 
 
