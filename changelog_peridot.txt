@@ -5,6 +5,30 @@ Device maintainer: kenway214
 
 ## DerpFest 16
 
+**Device Changelog 09.11.2025**
+
+- Latest source changes (Based on priv-maintainer source branch)
+- Nov security patch
+- Kernel: Updated NitronKernel v2.5 (~6.1.155) (ksu-next added by default)
+- Updated blobs from OS2.0.206.0.VNPMIXM
+- Updated some Camera blobs from aurora for better processing
+- Rework boost freq implementation with seperate implementation
+- Rework fastcharge implementation (only super-fast charge mode)
+- Tuned dev-frq boost implementation
+- Build External GameBar 13.2.0 
+- Fixed launcher icon issueswhere opening one icon launching another app
+- Build Powertools 13.2.0
+- powertools: Implement CPU Sets customisation (full control)
+- Powertools: Implement custom kprofile plus implementation
+- Bring back bypass charging feature (fake)
+- Use night_charging node for lineage charge control (only works above 80%)
+- Update BCR to 1.83
+- Introduce options to show 4G and 5G icons instead of LTE and NR types
+- Add combined notification count feature
+- Add navbar button inversion feature
+- Misc Other Changes
+
+
 **Device Changelog 29.10.2025**
 
 - Latest source changes (Based on priv-maintainer source branch)
