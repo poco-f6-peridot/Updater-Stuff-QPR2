@@ -5,6 +5,31 @@ Device maintainer: kenway214
 
 ## DerpFest 16
 
+
+**Device Changelog 15.11.2025**
+
+- source updates
+- Nov security patch
+- Kernel: Updated NitronKernel v2.6 (~6.1.155) (ksu removed)
+- Added PSI-based LMKD configuration
+- Updated HintManager for better CPU scheduling
+- Force enable volte , vonr for unsupported carrier
+- Implment QCOM custom doze
+- Tuned powerhint for balanced profile
+- Tuned boost freq implementation for better CPU scheduling
+- lmkd optimize scheduling
+- Add AC4Tbl params for dolby decoder
+- Fix EglFramebuffer leak
+- audio policy: Prevent MMAP flag from getting overwritten with VoIP RX and Direct flag
+- Fix SCREEN_BRIGHTNESS inconsistency issue before and after reboot
+- Disable notification cache
+- Switch to low ram policy for bitmaps
+- CpuMonitorService: reduce cache size
+- OomAdjuster: kill cached/restricted idle apps
+- OomAdjuster: freeze non-important processes when device is idle
+- Reduce shortcut service ram usage
+- Misc Other Changes
+
 **Device Changelog 09.11.2025**
 
 - Latest source changes (Based on priv-maintainer source branch)
