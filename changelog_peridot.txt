@@ -5,6 +5,36 @@ Device maintainer: kenway214
 
 ## DerpFest 16
 
+**Device Changelog 01.02.2026**
+
+- Latest source changes (Based on priv-maintainer source branch)
+- Kernel: Updated to 6.1.159-GlaciumKernel-2.7
+- Updated blobs from OS3.0.3.0.WNPEUXM
+- Updated Graphics blobs to v819
+- Fixed camera issues and occasional crashes
+- Fixed some apps not able to access location & GPS services
+- Fixed VoIP and VoNR calling for some carriers
+- Fixed no-incallsound in some cases
+- Dolby profile reset issue fixed
+- Fixed display occasional crashes/flickering
+- Added missing secure element permission
+- Switch to source built AOSP NXP keymint HAL
+- Updated powerhint to work msm performance
+- Fixed no sound occasionally with TWS
+- Updated powertools
+- Tuned devfreq for balanced profile
+------------------------------------------------
+ #SourceAdditions
+- Added X Reality display engine
+- Added AppLock(Settings/Apps) + App Hide
+- Added Revanced Manager (Settings/system)
+- Added Per-App spoofing
+- Added Autofix VBMeta Detection  
+
+
+**Device Changelog 14.01.2026**
+
+- Initial QPR2 Release
 
 **Device Changelog 15.11.2025**
 
