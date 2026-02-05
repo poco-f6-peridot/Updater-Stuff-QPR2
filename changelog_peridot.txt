@@ -5,6 +5,32 @@ Device maintainer: kenway214
 
 ## DerpFest 16
 
+**Device Changelog 06.02.2026**
+
+- Latest source changes (Based on priv-maintainer source branch)
+- Kernel: Updated to 6.1.159-GlaciumKernel-2.9
+- Updated blobs from Hyperos 3 global blobs OS3.0.4.0.WNPMIXM
+- Updated Graphics blobs to v819
+- New powertools v15
+- Powertools: Thermalprofile + thermal qs tile added
+- Powertools: Kprofile + Kprofile qs tile added
+- All optimizations fully now will be applied by kernel when switch using one kprofile
+- Implemented k profile true 0 mode so when set 0 we can complete disable kprofile and stock kernel behaviour not just 0 > 2 fallback hack
+- Implemented kprofile_mode 4 for Performence plus (most sustained performance) 
+- Updated powerhint
+- Misc changes
+
+------------------------------------------------
+ #SourceAdditions
+- Added X Reality display engine
+- New gamespace with quick launch apps
+- Added AppLock(Settings/Apps) + App Hide
+- Added Revanced Manager (Settings/system)
+- Added Hide scrren capture status
+- Added Per-App spoofing
+- Added Autofix VBMeta Detection 
+
+
 **Device Changelog 01.02.2026**
 
 - Latest source changes (Based on priv-maintainer source branch)
@@ -23,13 +49,6 @@ Device maintainer: kenway214
 - Fixed no sound occasionally with TWS
 - Updated powertools
 - Tuned devfreq for balanced profile
-------------------------------------------------
- #SourceAdditions
-- Added X Reality display engine
-- Added AppLock(Settings/Apps) + App Hide
-- Added Revanced Manager (Settings/system)
-- Added Per-App spoofing
-- Added Autofix VBMeta Detection  
 
 
 **Device Changelog 14.01.2026**
