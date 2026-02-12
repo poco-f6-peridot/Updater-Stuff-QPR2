@@ -5,6 +5,33 @@ Device maintainer: kenway214
 
 ## DerpFest 16
 
+**Device Changelog 12.02.2026**
+
+- Latest source changes (Based on priv-maintainer source branch)
+- Kernel: 6.1.159-GlaciumKernel-2.9
+- Updated IMS blobs from OS3.0.4.0.WNPMIXM
+- Updated and patched GNSS blobs from OS3.0.4.0.WNPMIXM
+- Fixed GPS permission issues in some cases.
+- Update and patched QESDK from OS3.0.4.0.WNPMIXM
+- Fixed unable to add/register fingerprint in some cases.
+- New powertools v15.1
+- Powertools: Implement per-app GPU min/max frequency control
+- Fixed regional thermal profile mapping
+- Gaming thermal(thermal-tgame): Unlocked upto 1000 MHz (stock capped at 900 MHz)
+- Fixed kprofile tile not applying proper kprofile
+- Kprofile (kp_mode 4 ) Fixed Not boosting gpu properly
+- Misc changes
+
+------------------------------------------------
+ #SourceAdditions
+- Added X Reality display engine
+- Added AppLock(Settings/Apps) + App Hide
+- Added Revanced Manager (Settings/system)
+- Added Hide scrren capture status
+- Added Per-App spoofing
+- Added Autofix VBMeta Detection 
+
+
 **Device Changelog 06.02.2026**
 
 - Latest source changes (Based on priv-maintainer source branch)
@@ -19,16 +46,6 @@ Device maintainer: kenway214
 - Implemented kprofile_mode 4 for Performence plus (most sustained performance) 
 - Updated powerhint
 - Misc changes
-
-------------------------------------------------
- #SourceAdditions
-- Added X Reality display engine
-- New gamespace with quick launch apps
-- Added AppLock(Settings/Apps) + App Hide
-- Added Revanced Manager (Settings/system)
-- Added Hide scrren capture status
-- Added Per-App spoofing
-- Added Autofix VBMeta Detection 
 
 
 **Device Changelog 01.02.2026**
