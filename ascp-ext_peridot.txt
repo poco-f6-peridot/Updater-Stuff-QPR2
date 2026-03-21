@@ -1,0 +1,17 @@
+Device name: Poco F6/ Redmi Turbo 3
+Device codename: peridot
+Device maintainer: kenway214
+
+## ASCP-Extended 5.3
+
+**Device Changelog 21.03.2026**
+
+- Latest source ascp extended. (Check customisations under ASCP LABS)
+- Kernel: 6.1.163-GlaciumKernel-3.8
+- Graphics Blobs updated to v849
+- Fixed FP not working in apps when more than 2 fp's added
+- New powertools v16 with Updated zen profiles and bug fixes
+- GameBar: Fix FPS record scrren DPI, data sync issue and other bug fixes
+- youtube + music revanced updated
+- New Mi Battery Control Centre
+- Misc optimisation and Changes
