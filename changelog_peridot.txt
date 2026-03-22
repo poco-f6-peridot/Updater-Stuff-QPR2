@@ -5,6 +5,31 @@ Device maintainer: kenway214
 
 ## DerpFest 16
 
+
+**Device Changelog 22.03.2026**
+
+- Latest source changes (Based on priv-maintainer source branch)
+- Kernel: 6.1.163-GlaciumKernel-3.8
+- Updated blobs from OS3.0.5.0.WNPMIXM
+- Updated Graphics blobs to v849
+- Ptached Dolby blobs to reduce system resources and crash fix
+- New powertools v16 (full version) with zen mode and custom zen profile support
+- New Mi Battery Control Centre with charging limit support
+- New GameBar With FPS record
+- Restrict charging throttling at high battery temps
+- Implement dexopt optimisation
+- Fixed no Incoming call sound occasionally while using TWS
+- Fixed FP not working in apps when more than 2 fp's added
+- Sepolicy fixes and Misc improvements
+
+------------------------------------------------
+ #SourceAdditions
+- Custom Display adjustment control
+- Added Revanced Manager (Settings/system)
+- Added Hide scrren capture status
+- Added Per-App spoofing
+- Added Autofix VBMeta Detection 
+
 **Device Changelog 12.02.2026**
 
 - Latest source changes (Based on priv-maintainer source branch)
@@ -21,16 +46,6 @@ Device maintainer: kenway214
 - Fixed kprofile tile not applying proper kprofile
 - Kprofile (kp_mode 4 ) Fixed Not boosting gpu properly
 - Misc changes
-
-------------------------------------------------
- #SourceAdditions
-- Added X Reality display engine
-- Added AppLock(Settings/Apps) + App Hide
-- Added Revanced Manager (Settings/system)
-- Added Hide scrren capture status
-- Added Per-App spoofing
-- Added Autofix VBMeta Detection 
-
 
 **Device Changelog 06.02.2026**
 
