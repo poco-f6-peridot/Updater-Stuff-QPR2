@@ -1,0 +1,8 @@
+Device name: Poco F6/ Redmi Turbo 3
+Device codename: peridot
+Device maintainer: kenway214
+
+
+## Lunaris v3.9
+
+- Initial Release
