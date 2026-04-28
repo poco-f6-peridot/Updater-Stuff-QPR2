@@ -5,6 +5,28 @@ Device maintainer: kenway214
 
 ## DerpFest 16
 
+**Device Changelog 28.04.2026**
+
+- Latest source changes (Based on priv-maintainer source branch)
+- Kernel Updated to latest 6.1.163-GlaciumKernel-4.0
+- Add nonui notifier
+- Updated zen modes decrease performence for balanced mode for better stability
+- Increses interaction hints and perf zen more boost
+- Fixed volte , vonr for some carriers causing network delay
+- Fixed bluetooth crashing occasionally
+- Updated gamebar with latest version
+- Updated patched displayblobs 
+- Sepolicy fixes and Misc improvements
+
+------------------------------------------------
+ #SourceAdditions
+- Added Revanced Manager (Settings/system)
+- Added Hide scrren capture status
+- Added Per-App spoofing
+- Axion applock and sandbox implementation
+- Wallpaper effects, glyph and video wallpaper
+- Added Autofix VBMeta Detection 
+
 
 **Device Changelog 22.03.2026**
 
