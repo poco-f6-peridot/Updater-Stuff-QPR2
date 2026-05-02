@@ -2,6 +2,21 @@ Device name: Poco F6/ Redmi Turbo 3
 Device codename: peridot
 Device maintainer: kenway214
 
+## ASCP-Extended 5.4
+
+- Latest source changes
+- Updated blobs from OS3.0.6.0.WNPMIXM
+- Kernel Updated to latest 6.1.163-GlaciumKernel-4.0
+- Implemented HBM mode
+- Add nonui notifier
+- Updated zen modes decrease performence for balanced mode for better stability
+- Increses interaction hints and perf zen more boost
+- Fixed volte , vonr for some carriers causing network delay
+- Fixed bluetooth crashing occasionally
+- Updated gamebar with latest version
+- Updated patched displayblobs 
+- Sepolicy fixes and Misc improvements
+
 ## ASCP-Extended 5.3
 
 **Device Changelog 21.03.2026**
