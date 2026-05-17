@@ -2,6 +2,25 @@ Device name: Poco F6/ Redmi Turbo 3
 Device codename: peridot
 Device maintainer: kenway214
 
+## Lunaris v3.10
+
+- Source upstream to 3.10
+- Reduced random UI stutters during high temp
+- Fixed audio routing during calls and media playback (multi channel
+- Fixed rare issue where auto-brightness could become unresponsive
+- Fixed USB tethering unresponsive for some devices
+- Refined perf and perf+ mode behavior
+- Improved per-app thermal profile backend logic
+- Updated WALT governor tuning parameters
+- Improved scheduler latency under high CPU load
+- Optimized GPU scaling behavior for gaming scenarios
+- Reduced unnecessary wakeups for improved battery life
+- Improved UFS and I/O scheduling performance
+- Refined thermal throttling thresholds
+- Improved foreground task prioritization
+- Revanced support added
+- Miscellaneous kernel-side optimizations and cleanups
+
 
 ## Lunaris v3.9
 
