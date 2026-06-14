@@ -5,6 +5,54 @@ Device maintainer: kenway214
 
 ## DerpFest 16
 
+**Device Changelog 14.06.2026**
+
+- Updated Security Patch Level to June SPL
+- Latest source changes (Based on priv-maintainer source branch)
+- Updated kernel version to 6.1.170-GlaciumKernel-4.2
+- Integrated native Droidspace container support into the kernel
+- Updated MiuiCamerato latest 6.4 version
+- Kernel level pocket mode with Nonui sensor
+- Implemented High Brightness Mode (HBM) and fixed an issue preventing HBM activation after waking from a low-power (LP) state
+- Resolved occasional Bluetooth daemon crashes
+- Updated and patched display blobs to address visual compatibility issues
+- Reduced UI micro-stutters during high thermal scenarios
+- Fixed multi-channel audio routing issues during calls and media playback
+- Resolved a rare issue where auto-brightness could become unresponsive
+- Fixed USB tethering connection dropping or becoming unresponsive on affected devices
+- Refined Performance and Performance+ mode scaling behavior for better efficiency
+- Updated WALT governor tuning parameters for smoother CPU scaling
+- Improved scheduler latency and responsiveness under heavy CPU load
+- Optimized GPU frequency scaling for sustained gaming performance
+- Reduced unnecessary system wakeups to improve standby battery life
+- Optimized UFS storage access and I/O scheduling performance
+- Refined thermal throttling thresholds for progressive performance scaling
+- Improved foreground task prioritization in the CPU scheduler
+- Optimized battery charging thermal controls to prevent overheating and ensure proper throttling during fast charging
+- Merged CLO tag 'LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0' into platform/vendor/opensource/dataipa
+- Merged CLO tag 'DISPLAY.LA.4.0.r2-10100-lanai.0' into platform/hardware/qcom/display
+- Merged CLO tag 'LA.VENDOR.14.3.0.r1-23100-lanai.QSSI16.0' into platform/vendor/qcom-opensource/data-ipa-cfg-mgr
+- Adjusted virtual memory (VM) and allocation parameters
+- Backported CFS scheduler optimizations to reduce jitter and UI stutters under heavy load
+- Upstream F2FS and EXT4 improvements
+- Refined kernel memory management page reclaim
+- Optimized CPU scheduling and task placement for improved UI responsiveness
+- Reduced overall system memory usage under heavy multitasking cases
+- Fixed minor frame drops during quick settings panel expansion and app transitions
+- Optimized writeback performance and reduced storage I/O latency
+- Fixed minor power consumption leaks during idle standby
+- Updated gamebar and powertools to latest version
+- Updated BCR
+
+
+------------------------------------------------
+ #SourceAdditions
+- Added Revanced Manager (Settings/system)
+- Added Per-App spoofing
+- Wallpaper effects, glyph and video wallpaper
+- Added Autofix VBMeta Detection 
+
+
 **Device Changelog 28.04.2026**
 
 - Latest source changes (Based on priv-maintainer source branch)
